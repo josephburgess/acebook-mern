@@ -1,9 +1,11 @@
 language: node_js
 node_js:
 - 17
-install:
-- cd frontend && npm install
-- cd ../api && npm install
+
+before_script:
+- cd api && npm install && npm run start &
+- cd ../frontend && npm install && npm run start &
+
 script:
 - cd frontend && npm run test
 - cd ../api && npm run test
