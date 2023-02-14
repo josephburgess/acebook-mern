@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- 17
+install:
+- cd frontend && npm install
+- cd ../api && npm install
+script:
+- npm test
+os:
+- osx
