@@ -3,7 +3,7 @@ node_js:
 - 17
 
 before_script:
-- cd api && npm install && npm run start &
+- cd api && npm install && npm run start:test &
 - cd frontend && npm install && npm run start &
 
 script:
