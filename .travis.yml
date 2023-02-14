@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-- 17
+- 19
 
 before_script:
 - cd api && npm install && npm run start:test &
-- cd frontend && npm install && npm run start &
+- cd ../frontend && npm install && npm run start &
 
 script:
 - cd frontend && npm run test
-- cd api && npm run test
+- cd ../api && npm run test
 
 os:
 - osx
