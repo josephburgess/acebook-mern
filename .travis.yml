@@ -8,11 +8,11 @@ osx_image: xcode12.5
 
 before_script:
 - cd api && npm install-clean && npm run start:test &
-- cd ../frontend && npm install-clean && npm run start &
+- cd frontend && npm install-clean && npm run start &
 
 script:
-- cd frontend && npm run test
-- cd ../api && npm run test
+- cd api && npm run test
+- cd ../frontend && npm run test
 
 env:
   global:
