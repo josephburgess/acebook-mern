@@ -15,7 +15,7 @@ before_script:
 - cd api && npm run start &
 
 script:
-- cd api && npm run test
+- npm run test
 - cd ../frontend && npm run test
 
 env:
