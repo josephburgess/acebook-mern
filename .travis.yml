@@ -1,6 +1,10 @@
 language: node_js
 node_js:
-- 18
+  - 18
+
+os: osx
+
+osx_image: xcode12.5
 
 before_script:
 - cd api && npm install && npm run start:test &
@@ -10,8 +14,6 @@ script:
 - cd frontend && npm run test
 - cd ../api && npm run test
 
-os:
-- osx
 env:
   global:
   - secure: CZCGCUfWeL75YAtbwBdjTrDGl8YVw+MNmD1HHuEO8e6G+jJGq1yTuZwjx02uTZFT71BU78WKcN3Dgw0F+Y6gO122APLDajtyRQOUf4iigCeyT97D5BttNUZ2W51R7bx4FEv8JWVdqyotgKJBkSi6zdwQnvtbxjrY9/ZqfooaIetZAtt8+QrEBAPNOPfDVN4a3XlUjF/iMpIVPC4zZKoB6IsVGlEXYxK/10Nw+4XKRueHcmzM25r1GhozQP1sTnJ+KifCjSswfSffowEgz7SCN7Xff16/C27BHTOEMf8wlb7Z8QHAxlrmnDKkcwbZ9C/nJij/gcYxsW39zmkG/Ds9V9zHh9KfLRBYOcvNwd7x3hYYEk+2uacTw0SdgiCbXEobEV+hnhrNhFqVZQT1JQAPcqEEi7QO680Ejw60tsnDYy524o9S4cxtKhx2h9Q8slSzla1x1deUrj4nMAdbet/UP4JFc/NHC11Infgh+iX/2oOj4PxMQqMqLmq6VSHHNUxvYWfTm9W3wBKhVLegnOSne0HPQsW8nBe2U/1vX/omu+WqS6GWIuQNFxwhrb8/1/Tkpua+L/UhlYq2OtrDI3jvvJbaB4/9wTPTjHivvCYIfVKAVYJ7BdzBP5hhBC9YCOOwvpfbderuuPScQhSPcdD4+9rpD0hQ5sR1VuuapRPqZO8=
