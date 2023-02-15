@@ -7,8 +7,12 @@ os: osx
 osx_image: xcode12.5
 
 before_script:
-- cd api && npm install-clean && npm run start:test &
-- cd frontend && npm install-clean && npm run start &
+- cd api && npm run start &
+- cd frontend && npm run start &
+
+install:
+- cd api && npm install 
+- cd ../frontend && npm install 
 
 script:
 - cd api && npm run test
