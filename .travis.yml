@@ -6,13 +6,13 @@ os: osx
 
 osx_image: xcode12.5
 
-before_script:
-- cd api && npm run start &
-- cd frontend && npm run start &
-
 install:
 - cd api && npm install 
 - cd ../frontend && npm install 
+
+before_script:
+- npm run start &
+- cd api && npm run start &
 
 script:
 - cd api && npm run test
