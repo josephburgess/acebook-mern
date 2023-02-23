@@ -2,16 +2,6 @@
 
 In this project, you are tasked with working on an existing application. A significant part of the challenge will be to familiarise yourself with the codebase you've inherited, as you work to **improve and extend** it.
 
-# Scripts:
-
-Frontend -
-"npm run front-server" = "JWT_SECRET=SUPER_SECRET npm start"
-"npm run front-test" = "JWT_SECRET=SUPER_SECRET npm run test"
-Api -
-"npm run api-server" = "JWT_SECRET=SUPER_SECRET npm start",
-"npm run api-test-mode" = "JWT_SECRET=SUPER_SECRET npm run start:test",
-"npm run api-test" = "JWT_SECRET=SUPER_SECRET npm run test"
-
 ## Videos
 
 These videos complement the docs below.
