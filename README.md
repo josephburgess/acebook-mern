@@ -5,14 +5,15 @@ In this project, eight of us were tasked with working on an existing MERN applic
 You can view the fully deployed site here: [Acebook-Air](https://acebook-air-frontend.onrender.com/)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/4661986/221147532-a7011ac5-7046-4c4d-a42c-f1c2c8897f0a.png"/> 
+<img src="https://user-images.githubusercontent.com/4661986/221147532-a7011ac5-7046-4c4d-a42c-f1c2c8897f0a.png" style="width:600px;"/> 
 </p>
+
 ## Site demo
 
-
 <p align="center">
-<img src="https://user-images.githubusercontent.com/4661986/221147166-4d8f7809-f07a-4507-a6c3-a73db17dde0f.gif/>
+<img src="https://user-images.githubusercontent.com/4661986/221147166-4d8f7809-f07a-4507-a6c3-a73db17dde0f.gif"/>
 </p>
+
 ## Presentation
 
 At the end of the two weeks, the team presented the following slides to the rest of our cohort and coaches detailing our team values and our approach. [Team presentation](https://drive.google.com/file/d/1pFIStTqxkfCCAvBrJhD5ji71xJYA2mbA/view?usp=share_link)
