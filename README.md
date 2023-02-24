@@ -61,10 +61,10 @@ At the end of the two weeks, the team presented to the rest of our cohort and co
 2. Install Node.js dependencies for both front and backend directories
 
    ```bash
-   ; cd api
-   ; npm install
-   ; cd ../frontend
-   ; npm install
+   cd api
+   npm install
+   cd ../frontend
+   npm install
    ```
 
 3. Install MongoDB
@@ -91,20 +91,21 @@ At the end of the two weeks, the team presented to the rest of our cohort and co
    ```bash
    cd api && touch .env && echo 'API_KEY=[INSERT KEY]\nAPI_SECRET=[INSERT SECRET]' >> .env
    ```
+   
 ### Running
 
 1.  Start the backend server:
 
    ```bash
-   ; cd api
-   ; JWT_SECRET=SUPER_SECRET npm start
+   cd api
+   JWT_SECRET=SUPER_SECRET npm start
    ```
 
 2.  Start the front end in a new terminal session:
 
    ```bash
-   ; cd frontend
-   ; npm start
+   cd frontend
+   npm start
    ```
 
 You should now be able to open your browser and go to `http://localhost:3000/`
@@ -116,10 +117,10 @@ We used Jest for testing the back end and Cypress for testing the front end and,
 
 With the front and back end running, you can run the tests in a new terminal window:
 
-```bash
-cd api && JWT_SECRET=SUPER_SECRET npm run test
-cd frontend && npm run test
-```
+   ```bash
+   cd api && JWT_SECRET=SUPER_SECRET npm run test
+   cd frontend && npm run test
+   ```
 ## Our process
 
 Working in a group of this size was a new experience for all of us and it was really helpful to set out our values and expectations for the project from the very beginning. We all learned a lot about working in tandem with each other and became very efficient with collaborating on Github by the end. 
