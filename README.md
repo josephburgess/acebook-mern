@@ -18,9 +18,11 @@ You can view the fully deployed site here: [Acebook-Air](https://acebook-air-fro
 
 At the end of the two weeks, the team presented to the rest of our cohort and coaches detailing our team values and our approach, before giving a live demo of the site. Click the image to access the slides.
 
+<p align="center">
 <a href="https://drive.google.com/file/d/1pFIStTqxkfCCAvBrJhD5ji71xJYA2mbA/view?usp=share_link">
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/4661986/221149291-a99cd7bc-5140-4ab8-aec0-647bf876b800.png">
 </a>
+</p>
 
 ## Features achieved
 
