@@ -8,22 +8,6 @@ You can view the fully deployed site here: [Acebook-Air](https://acebook-air-fro
 <img src="https://user-images.githubusercontent.com/4661986/221147532-a7011ac5-7046-4c4d-a42c-f1c2c8897f0a.png" style="width:600px;"/> 
 </p>
 
-## Site demo
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/4661986/221147166-4d8f7809-f07a-4507-a6c3-a73db17dde0f.gif"/>
-</p>
-
-## Presentation
-
-At the end of the two weeks, the team presented to the rest of our cohort and coaches detailing our team values and our approach, before giving a live demo of the site. Click the image to access the slides.
-
-<p align="center">
-<a href="https://drive.google.com/file/d/1pFIStTqxkfCCAvBrJhD5ji71xJYA2mbA/view?usp=share_link">
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/4661986/221149291-a99cd7bc-5140-4ab8-aec0-647bf876b800.png">
-</a>
-</p>
-
 ## Features achieved
 
 #### MVP
@@ -50,6 +34,24 @@ The user can:
 - [x] See a live counter of the number of people that have liked a post
 - [x] See a live timestamp of how long ago a post was made
 - [x] Only see the beginning of longer posts, and can click to 'Show more'/'Show less' text
+
+
+## Site demo
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/4661986/221147166-4d8f7809-f07a-4507-a6c3-a73db17dde0f.gif"/>
+</p>
+
+## Presentation
+
+At the end of the two weeks, the team presented to the rest of our cohort and coaches detailing our team values and our approach, before giving a live demo of the site. Click the image to access the slides.
+
+<p align="center">
+<a href="https://drive.google.com/file/d/1pFIStTqxkfCCAvBrJhD5ji71xJYA2mbA/view?usp=share_link">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/4661986/221149291-a99cd7bc-5140-4ab8-aec0-647bf876b800.png">
+</a>
+</p>
+
 
 ## How to try the project
 
