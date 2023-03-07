@@ -136,3 +136,4 @@ The team is extremely pleased with what it managed to achieve in the short space
 We were particularly pleased to achieve a live-deployed version of the website and felt that once the site had finally gone live it was helpful in the development process to be able to see the site update in real time.
 
 With more time for the project the team would have liked to have added features for adding friends and to have polished some of the styling more.
+
